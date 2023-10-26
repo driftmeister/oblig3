@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f306496-730f-4fa6-848d-4a7eaed44cd1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/leapyear_tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/leapyear_tests.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_isleapyear.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_isleapyear.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
