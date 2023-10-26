@@ -1,7 +1,6 @@
 import pytest as pt
 from oblig3 import leapYear
 
-#Test
 @pt.fixture()
 def leap_year():
     return leapYear
