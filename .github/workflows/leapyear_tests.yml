@@ -28,5 +28,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r /requirements.txt
 
-        - name: Test Leapyear
-        run: pytest test_leapyear.py
+        - name: Leapyear_test
+        run: pytest test_isleapyear.py
