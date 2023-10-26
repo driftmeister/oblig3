@@ -8,21 +8,21 @@ jobs:
     runs-on: windows-latest
 
 
-  env:
-    MODE: "dev"
+    env:
+      MODE: "dev"
 
-  steps:
-    - uses: actions/checkout@v3
+    steps:
+      - uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ matrix.python-version }}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r ./requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./requirements.txt
 
-    - name: Leapyear test
-      run: pytest ./test_isleapyear.py
+      - name: Leapyear test
+        run: pytest ./test_isleapyear.py
